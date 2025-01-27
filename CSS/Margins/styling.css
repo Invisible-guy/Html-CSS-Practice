@@ -1,0 +1,16 @@
+body{
+    margin: 0px;
+}
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    width: 200px;
+    height: 200px;
+}
+#box1{
+    background-color: rgb(251, 90, 90);
+}
+#box2{
+    background-color: rgb(66, 66, 233);
+    margin-left:auto;
+}

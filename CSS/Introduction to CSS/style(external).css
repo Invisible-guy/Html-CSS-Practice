@@ -1,0 +1,44 @@
+@font-face {
+    src: url(Fonts/Monocraft.ttc);
+    font-family: Mojangles;
+}
+
+body{
+    background-color: black;
+}
+h1{
+    border: 3px dashed white;
+    color:white;
+    font-family: Mojangles;
+}
+#p1{
+    border-bottom: 2px dashed white;
+    color:red;
+    font-size: 1.1em;
+    font-family: Mojangles;
+
+}
+#p2{
+    color:orange;
+    font-weight: bold;
+    font-family: Mojangles;
+}
+#p3{
+    color:yellow;
+    font-style: italic;
+    font-family: Mojangles;
+}
+#p4{
+    color:lightgreen;
+    font-family: Mojangles;
+}
+
+.odd{
+    background-color: darkgray;
+    font-family: Mojangles;
+}
+
+.even{
+    background-color: darkolivegreen;
+    font-family: Mojangles;
+}
