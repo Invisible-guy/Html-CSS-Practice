@@ -1,0 +1,24 @@
+h1::first-letter{
+    font-size: 2em;
+    color: red;
+}
+p::first-line{
+    background-color: rgb(102, 102, 225);
+}
+p::selection{
+    color: hsl(114, 80%, 53%);
+    background-color: hsl(0, 0%, 40%);
+}
+#fruit li::before{
+    content: "Fruits: ";
+    font-weight: bold;
+}
+#apple::after{
+    content: "🔥";
+}
+
+#fruit li::marker{
+    content: "✔️";
+    color: hsl(120, 56%, 60%);
+    font-size: 1.2em;
+}
