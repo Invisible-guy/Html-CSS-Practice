@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: rgb(213, 213, 213);
+    text-align: center;
+    padding: 10px;
+}
+.navbar{
+    background-color: rgb(78, 78, 78);
+    height: 50px;
+}
+aside{
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    float: left;
+    padding: 25px;
+}
+section{
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    float: left;
+    padding: 25px;
+}
+article{
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    float: left;
+    padding: 25px;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: rgb(213, 213, 213);
+    text-align: center;
+    padding: 10px;
+}
+@media screen and (max-width: 600px){
+    aside, section, article{
+        width: 100%;
+    }
+    
+}
