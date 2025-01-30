@@ -1,0 +1,21 @@
+.gallery{
+    display: inline-block;
+    border: 4px solid rgb(138, 138, 138);
+    border-radius: 2px;
+    margin: 10px;
+    width: 200px;
+}
+.gallery .description{
+    padding: 5px;
+    background-color: #f1f1f1;
+    border-top: 1px solid black;
+    text-align:center;
+    font-size: 1.2em;
+}
+.gallery:hover{
+    border-color: #414141;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
